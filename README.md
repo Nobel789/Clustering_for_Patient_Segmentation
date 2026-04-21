@@ -107,3 +107,11 @@ Hyperparameter tuning automation
 
 ---
 
+
+## 🔌 API (FastAPI)
+
+A local API is available in `patient_segmentation/api` with endpoint:
+
+- `POST /predict_risk` for patient risk cluster prediction (Low / Medium / High)
+
+See `patient_segmentation/api/README.md` for setup and run steps.
